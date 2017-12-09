@@ -6,8 +6,8 @@ import java.util.List;
  * Custom tree implementation to allow nodes to have multiple children
  * to accurately model thread conversation structures.
  * @author Vinay
- * The 'addElement' method requires you to provide the parent node in addition to the current node
- * so that the current node is added to as a child to the appropriate node.
+ * The 'addElement' method requires you to provide the parent node in addition to the current node (that you want to add to the tree)
+ * so that the current node is added as a child to the appropriate node.
  * The 'traverse' method uses a Depth First Search (Pre-Order traversing) method to retrive nodes.
  *
  */
